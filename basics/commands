@@ -1,0 +1,16 @@
+For Windows, call commands one by one:
+
+conda create --name cwq
+conda activate cwq
+
+conda install python=3.12
+conda install pip
+
+pip install qiskit
+pip install -U qiskit-aer
+
+pip install matplotlib
+pip install qiskit_ibm_runtime
+pip install pylatexenc
+
+It is important to specify Python version 12 because, as of today (2024-11-26), the automatically installed version 13 causes an error during the installation of qiskit_aer.
